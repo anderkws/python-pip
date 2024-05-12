@@ -1,4 +1,4 @@
-# Guia de Repositorio
+i Guia de Repositorio
 
 Juego de Piedra, papel o tijera, para correrlo ejecuta las sgts instrucciones
 
@@ -12,7 +12,8 @@ python main.py
 ```sh
 git clone
 cd app
-source env/bin/activate
+python3 -m venv env , for gitbash : py -m venv env
+source env/bin/activate , for gitbash : source Scripts/activate
 pip3 install -r requeriments.txt
 python3 main.py
 ```
