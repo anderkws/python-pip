@@ -14,7 +14,7 @@ def generate_pie_chat(labels, values):
     ax.pie(values, labels=labels)
     ax.axis('equal')
     # plt.show()
-    plt.savefig('pie.png')
+    plt.savefig('chart_pie_cambio.png')
     plt.close()
 
 if __name__ == '__main__':
